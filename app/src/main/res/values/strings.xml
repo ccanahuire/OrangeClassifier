@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OrangeClassifier</string>
+
+    <string name="text.mainmenu.classifier">Clasificador</string>
 </resources>
