@@ -2,4 +2,8 @@
     <string name="app_name">OrangeClassifier</string>
 
     <string name="text.mainmenu.classifier">Clasificador</string>
+    <string name="text.mainmenu.bitmaptest">Bitmap Test</string>
+
+    <string name="text.bitmaptest.source">Source bitmap</string>
+    <string name="text.bitmaptest.processed">Processed bitmap</string>
 </resources>

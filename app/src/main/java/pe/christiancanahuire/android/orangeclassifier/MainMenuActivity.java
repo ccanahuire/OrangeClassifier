@@ -23,6 +23,13 @@ public class MainMenuActivity extends AppCompatActivity {
                 onClickClassifier();
             }
         });
+
+        findViewById(R.id.btn_bitmaptest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navigateToBitmapTest();
+            }
+        });
     }
 
     @Override
@@ -43,10 +50,16 @@ public class MainMenuActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(this,
                     new String[]{Manifest.permission.CAMERA},
                     PERMISSION_REQUEST_CAMERA);
+        } else {
+            navigateToCameraClassifier();
         }
     }
 
     private void navigateToCameraClassifier() {
         CameraActivity.start(this);
+    }
+
+    private void navigateToBitmapTest() {
+        BitmapTestActivity.start(this);
     }
 }

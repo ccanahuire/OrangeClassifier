@@ -13,4 +13,11 @@
         android:layout_gravity="center"
         android:text="@string/text.mainmenu.classifier" />
 
+    <Button
+        android:id="@+id/btn_bitmaptest"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:text="@string/text.mainmenu.bitmaptest" />
+
 </LinearLayout>
